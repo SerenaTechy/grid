@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            text-align: center; 
+        }
+        .easy{
+            padding-top: 10px; border: 3px solid black;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <section style="height: 300px;width: 500px; display: grid;grid-template-rows: auto 60% auto;
+ margin: auto;color: white; gap: 10px;margin-top: 100px;">
+        <div class="easy" style="background-color: purple;">header</div>
+        <div style=" display: grid;grid-template-columns: auto auto; gap: 10px;">
+            <div class="easy" style="background-color: blueviolet;">
+                sidebar
+            </div>
+            <div  style="display: grid; gap: 10px; ">
+                <div class="easy" style="background-color: blueviolet;">
+                    content-1
+    
+                </div>
+                <div  style="display: grid;gap: 10px; grid-template-columns: auto auto;">
+                    
+                    <div class="easy" style="background-color: blueviolet; gap: 10px;">
+                    content-2     
+                    </div>
+                    <div class="easy" style="background-color: blueviolet;">
+                        content-3
+                    </div>
+                </div>
+    
+            </div>
+            </div>
+            
+
+        <div class="easy" style="background-color: purple;">footer</div>
+    </section>
+
+
+</body>
+
+</html>
